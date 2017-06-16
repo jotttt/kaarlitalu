@@ -40,7 +40,7 @@ main,
 nav,
 section,
 summary {
-	display: block; }
+    display: block; }
 
 /**
 * Correct `inline-block` display not defined in IE 8/9.
@@ -49,7 +49,7 @@ summary {
 audio,
 canvas,
 video {
-	display: inline-block; }
+    display: inline-block; }
 
 /**
 * Prevent modern browsers from displaying `audio` without controls.
@@ -57,8 +57,8 @@ video {
 */
 /* line 42, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 audio:not([controls]) {
-	display: none;
-	height: 0; }
+    display: none;
+    height: 0; }
 
 /**
 * Address `[hidden]` styling not present in IE 8/9.
@@ -67,7 +67,7 @@ audio:not([controls]) {
 /* line 53, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 [hidden],
 template {
-	display: none; }
+    display: none; }
 
 /* ==========================================================================
 Base
@@ -79,19 +79,19 @@ Base
 */
 /* line 67, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 html {
-	font-family: sans-serif;
-	/* 1 */
-	-ms-text-size-adjust: 100%;
-	/* 2 */
-	-webkit-text-size-adjust: 100%;
-	/* 2 */ }
+    font-family: sans-serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */ }
 
 /**
 * Remove default margin.
 */
 /* line 77, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 body {
-	margin: 0; }
+    margin: 0; }
 
 /* ==========================================================================
 Links
@@ -101,14 +101,14 @@ Links
 */
 /* line 89, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 a {
-	background: transparent; }
+    background: transparent; }
 
 /**
 * Address `outline` inconsistency between Chrome and other browsers.
 */
 /* line 97, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 a:focus {
-	outline: thin dotted; }
+    outline: thin dotted; }
 
 /**
 * Improve readability when focused and also mouse hovered in all browsers.
@@ -116,7 +116,7 @@ a:focus {
 /* line 106, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 a:active,
 a:hover {
-	outline: 0; }
+    outline: 0; }
 
 /* ==========================================================================
 Typography
@@ -127,15 +127,15 @@ Typography
 */
 /* line 119, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 h1 {
-	font-size: 2em;
-	margin: 0.2em 0; }
+    font-size: 2em;
+    margin: 0.2em 0; }
 
 /**
 * Address styling not present in IE 8/9, Safari 5, and Chrome.
 */
 /* line 128, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 abbr[title] {
-	border-bottom: 1px dotted; }
+    border-bottom: 1px dotted; }
 
 /**
 * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
@@ -144,7 +144,7 @@ abbr[title] {
 b,
 strong,
 .strong {
-	font-weight: bold; }
+    font-weight: bold; }
 
 /**
 * Address styling not present in Safari 5 and Chrome.
@@ -153,33 +153,33 @@ strong,
 dfn,
 em,
 .em {
-	font-style: italic; }
+    font-style: italic; }
 
 /**
 * Address differences between Firefox and other browsers.
 */
 /* line 156, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 hr {
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	height: 0; }
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0; }
 
 /*
 * proper formatting (http://blog.fontdeck.com/post/9037028497/hyphens)
 */
 /* line 166, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 p {
-	-webkit-hyphens: auto;
-	-epub-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto; }
+    -webkit-hyphens: auto;
+    -epub-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto; }
 
 /*
 * Addresses margins set differently in IE6/7.
 */
 /* line 177, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 pre {
-	margin: 0; }
+    margin: 0; }
 
 /**
 * Correct font family set oddly in Safari 5 and Chrome.
@@ -189,22 +189,22 @@ code,
 kbd,
 pre,
 samp {
-	font-family: monospace, serif;
-	font-size: 1em; }
+    font-family: monospace, serif;
+    font-size: 1em; }
 
 /**
 * Improve readability of pre-formatted text in all browsers.
 */
 /* line 197, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 pre {
-	white-space: pre-wrap; }
+    white-space: pre-wrap; }
 
 /**
 * Set consistent quote types.
 */
 /* line 205, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 q {
-	quotes: "\201C" "\201D" "\2018" "\2019"; }
+    quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /**
 * Address inconsistent and variable font size in all browsers.
@@ -212,12 +212,12 @@ q {
 /* line 213, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 q:before,
 q:after {
-	content: '';
-	content: none; }
+    content: '';
+    content: none; }
 
 /* line 218, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 small, .small {
-	font-size: 75%; }
+    font-size: 75%; }
 
 /**
 * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -225,18 +225,18 @@ small, .small {
 /* line 227, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline; }
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline; }
 
 /* line 234, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 sup {
-	top: -0.5em; }
+    top: -0.5em; }
 
 /* line 238, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 sub {
-	bottom: -0.25em; }
+    bottom: -0.25em; }
 
 /* ==========================================================================
 Lists
@@ -249,24 +249,24 @@ dl,
 menu,
 ol,
 ul {
-	margin: 1em 0; }
+    margin: 1em 0; }
 
 /* line 257, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 dd {
-	margin: 0; }
+    margin: 0; }
 
 /*
 * Addresses paddings set differently in IE6/7.
 */
 /* line 265, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 menu {
-	padding: 0 0 0 40px; }
+    padding: 0 0 0 40px; }
 
 /* line 270, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 ol,
 ul {
-	padding: 0;
-	list-style-type: none; }
+    padding: 0;
+    list-style-type: none; }
 
 /*
 * Corrects list images handled incorrectly in IE7.
@@ -274,8 +274,8 @@ ul {
 /* line 280, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 nav ul,
 nav ol {
-	list-style: none;
-	list-style-image: none; }
+    list-style: none;
+    list-style-image: none; }
 
 /* ==========================================================================
 Embedded content
@@ -285,14 +285,14 @@ Embedded content
 */
 /* line 293, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 img {
-	border: 0; }
+    border: 0; }
 
 /**
 * Correct overflow displayed oddly in IE 9.
 */
 /* line 301, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 svg:not(:root) {
-	overflow: hidden; }
+    overflow: hidden; }
 
 /* ==========================================================================
 Figures
@@ -302,7 +302,7 @@ Figures
 */
 /* line 313, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 figure {
-	margin: 0; }
+    margin: 0; }
 
 /* ==========================================================================
 Forms
@@ -312,9 +312,9 @@ Forms
 */
 /* line 325, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 fieldset {
-	border: 1px solid #c0c0c0;
-	margin: 0 2px;
-	padding: 0.35em 0.625em 0.75em; }
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em; }
 
 /**
 * 1. Correct `color` not being inherited in IE 8/9.
@@ -322,10 +322,10 @@ fieldset {
 */
 /* line 336, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 legend {
-	border: 0;
-	/* 1 */
-	padding: 0;
-	/* 2 */ }
+    border: 0;
+    /* 1 */
+    padding: 0;
+    /* 2 */ }
 
 /**
 * 1. Correct font family not being inherited in all browsers.
@@ -337,12 +337,12 @@ button,
 input,
 select,
 textarea {
-	font-family: inherit;
-	/* 1 */
-	font-size: 100%;
-	/* 2 */
-	margin: 0;
-	/* 3 */ }
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 2 */
+    margin: 0;
+    /* 3 */ }
 
 /**
 * Address Firefox 4+ setting `line-height` on `input` using `!important` in
@@ -351,7 +351,7 @@ textarea {
 /* line 362, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 button,
 input {
-	line-height: normal; }
+    line-height: normal; }
 
 /**
 * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -362,7 +362,7 @@ input {
 /* line 374, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 button,
 select {
-	text-transform: none; }
+    text-transform: none; }
 
 /**
 * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -375,10 +375,10 @@ select {
 button,
 html input[type="button"], input[type="reset"],
 input[type="submit"] {
-	-webkit-appearance: button;
-	/* 2 */
-	cursor: pointer;
-	/* 3 */ }
+    -webkit-appearance: button;
+    /* 2 */
+    cursor: pointer;
+    /* 3 */ }
 
 /**
 * Re-set default cursor for disabled elements.
@@ -386,7 +386,7 @@ input[type="submit"] {
 /* line 399, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 button[disabled],
 html input[disabled] {
-	cursor: default; }
+    cursor: default; }
 
 /**
 * 1. Address box sizing set to `content-box` in IE 8/9/10.
@@ -395,10 +395,10 @@ html input[disabled] {
 /* line 409, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-	box-sizing: border-box;
-	/* 1 */
-	padding: 0;
-	/* 2 */ }
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */ }
 
 /**
 * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
@@ -407,12 +407,12 @@ input[type="radio"] {
 */
 /* line 420, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 input[type="search"] {
-	-webkit-appearance: textfield;
-	/* 1 */
-	-moz-box-sizing: content-box;
-	-webkit-box-sizing: content-box;
-	/* 2 */
-	box-sizing: content-box; }
+    -webkit-appearance: textfield;
+    /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    /* 2 */
+    box-sizing: content-box; }
 
 /**
 * Remove inner padding and search cancel button in Safari 5 and Chrome
@@ -421,7 +421,7 @@ input[type="search"] {
 /* line 433, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none; }
+    -webkit-appearance: none; }
 
 /**
 * Remove inner padding and border in Firefox 4+.
@@ -429,8 +429,8 @@ input[type="search"]::-webkit-search-decoration {
 /* line 442, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-	border: 0;
-	padding: 0; }
+    border: 0;
+    padding: 0; }
 
 /**
 * 1. Remove default vertical scrollbar in IE 8/9.
@@ -438,10 +438,10 @@ input::-moz-focus-inner {
 */
 /* line 452, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 textarea {
-	overflow: auto;
-	/* 1 */
-	vertical-align: top;
-	/* 2 */ }
+    overflow: auto;
+    /* 1 */
+    vertical-align: top;
+    /* 2 */ }
 
 /* ==========================================================================
 Tables
@@ -451,32 +451,32 @@ Tables
 */
 /* line 465, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 table {
-	border-collapse: collapse;
-	border-spacing: 0; }
+    border-collapse: collapse;
+    border-spacing: 0; }
 
 /* line 472, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
 
 /* line 480, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 .image-replacement,
 .ir {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden; }
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; }
 
 /* line 487, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 .clearfix, .cf, .comment-respond {
-	zoom: 1; }
+    zoom: 1; }
 /* line 489, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 .clearfix:before, .clearfix:after, .cf:before, .comment-respond:before, .cf:after, .comment-respond:after {
-	content: "";
-	display: table; }
+    content: "";
+    display: table; }
 /* line 490, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 .clearfix:after, .cf:after, .comment-respond:after {
-	clear: both; }
+    clear: both; }
 
 /*
 use the best ampersand
@@ -484,8 +484,8 @@ http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 /* line 497, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_normalize.scss */
 span.amp {
-	font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
-	font-style: italic; }
+    font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
+    font-style: italic; }
 
 /******************************************************************
 Site Name:
@@ -547,22 +547,22 @@ font-style: normal;
 }
 */
 @font-face {
-	font-family: "Amatic-Regular";
-	src: url("../../library/fonts/AmaticSC-Regular-webfont.eot");
-	/* IE9 Compat Modes */
-	src: url("../../library/fonts/AmaticSC-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../library/fonts/AmaticSC-Regular-webfont.woff2") format("woff2"), url("../../library/fonts/AmaticSC-Regular-webfont.woff") format("woff"), url("../../library/fonts/AmaticSC-Regular-webfont.ttf") format("truetype"), url("../../library/fonts/AmaticSC-Regular-webfont.svg#svgFontName") format("svg");
-	/* Legacy iOS */
-	font-weight: normal;
-	font-style: normal; }
+    font-family: "Amatic-Regular";
+    src: url("../../library/fonts/AmaticSC-Regular-webfont.eot");
+    /* IE9 Compat Modes */
+    src: url("../../library/fonts/AmaticSC-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../library/fonts/AmaticSC-Regular-webfont.woff2") format("woff2"), url("../../library/fonts/AmaticSC-Regular-webfont.woff") format("woff"), url("../../library/fonts/AmaticSC-Regular-webfont.ttf") format("truetype"), url("../../library/fonts/AmaticSC-Regular-webfont.svg#svgFontName") format("svg");
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal; }
 
 @font-face {
-	font-family: "Amatic-Bold";
-	src: url("../../library/fonts/Amatic-Bold-webfont.eot");
-	/* IE9 Compat Modes */
-	src: url("../../library/fonts/Amatic-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../library/fonts/Amatic-Bold-webfont.woff2") format("woff2"), url("../../library/fonts/Amatic-Bold-webfont.woff") format("woff"), url("../../library/fonts/Amatic-Bold-webfont.ttf") format("truetype"), url("../../library/fonts/Amatic-Bold-webfont.svg#svgFontName") format("svg");
-	/* Legacy iOS */
-	font-weight: normal;
-	font-style: normal; }
+    font-family: "Amatic-Bold";
+    src: url("../../library/fonts/Amatic-Bold-webfont.eot");
+    /* IE9 Compat Modes */
+    src: url("../../library/fonts/Amatic-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../library/fonts/Amatic-Bold-webfont.woff2") format("woff2"), url("../../library/fonts/Amatic-Bold-webfont.woff") format("woff"), url("../../library/fonts/Amatic-Bold-webfont.ttf") format("truetype"), url("../../library/fonts/Amatic-Bold-webfont.svg#svgFontName") format("svg");
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal; }
 
 /*
 The following is based of Typebase:
@@ -579,20 +579,20 @@ more here: http://www.newnet-soft.com/blog/csstypography
 */
 /* line 86, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_typography.scss */
 p {
-	-ms-word-wrap: break-word;
-	word-break: break-word;
-	word-wrap: break-word;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
-	-webkit-hyphenate-before: 2;
-	-webkit-hyphenate-after: 3;
-	hyphenate-lines: 3;
-	-webkit-font-feature-settings: "liga", "dlig";
-	-moz-font-feature-settings: "liga=1, dlig=1";
-	-ms-font-feature-settings: "liga", "dlig";
-	-o-font-feature-settings: "liga", "dlig";
-	font-feature-settings: "liga", "dlig"; }
+    -ms-word-wrap: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    -webkit-hyphenate-before: 2;
+    -webkit-hyphenate-after: 3;
+    hyphenate-lines: 3;
+    -webkit-font-feature-settings: "liga", "dlig";
+    -moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig"; }
 
 /******************************************************************
 Site Name:
@@ -708,8 +708,8 @@ over your project's layout.
 ******************************************************************/
 /* line 36, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
 .last-col {
-	float: right;
-	padding-right: 0 !important; }
+    float: right;
+    padding-right: 0 !important; }
 
 /*
 Mobile Grid Styles
@@ -718,167 +718,167 @@ There are four types, but you can add or customize
 them however you see fit.
 */
 @media (max-width: 767px) {
-	/* line 50, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.m-all {
-		margin: 0 auto;
-		width: 100%;
-		padding-right: 0; }
-	/* line 56, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.m-1of2 {
-		margin: 0 auto;
-		width: 50%; }
-	/* line 61, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.m-1of3 {
-		margin: 0 auto;
-		width: 33.33%; }
-	/* line 66, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.m-2of3 {
-		margin: 0 auto;
-		width: 66.66%; }
-	/* line 71, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.m-1of4 {
-		margin: 0 auto;
-		width: 25%; }
-	/* line 76, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.m-3of4 {
-		margin: 0 auto;
-		width: 75%; } }
+    /* line 50, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .m-all {
+        margin: 0 auto;
+        width: 100%;
+        padding-right: 0; }
+    /* line 56, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .m-1of2 {
+        margin: 0 auto;
+        width: 50%; }
+    /* line 61, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .m-1of3 {
+        margin: 0 auto;
+        width: 33.33%; }
+    /* line 66, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .m-2of3 {
+        margin: 0 auto;
+        width: 66.66%; }
+    /* line 71, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .m-1of4 {
+        margin: 0 auto;
+        width: 25%; }
+    /* line 76, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .m-3of4 {
+        margin: 0 auto;
+        width: 75%; } }
 
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
-	/* line 87, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-all {
-		margin: 0 auto;
-		width: 100%;
-		padding-right: 0; }
-	/* line 93, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-1of2 {
-		margin: 0 auto;
-		width: 50%; }
-	/* line 98, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-1of3 {
-		margin: 0 auto;
-		width: 33.33%; }
-	/* line 103, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-2of3 {
-		margin: 0 auto;
-		width: 66.66%; }
-	/* line 108, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-1of4 {
-		margin: 0 auto;
-		width: 25%; }
-	/* line 113, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-3of4 {
-		margin: 0 auto;
-		width: 75%; }
-	/* line 118, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-1of5 {
-		margin: 0 auto;
-		width: 20%; }
-	/* line 123, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-2of5 {
-		margin: 0 auto;
-		width: 40%; }
-	/* line 128, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-3of5 {
-		margin: 0 auto;
-		width: 60%; }
-	/* line 133, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.t-4of5 {
-		margin: 0 auto;
-		width: 80%; } }
+    /* line 87, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-all {
+        margin: 0 auto;
+        width: 100%;
+        padding-right: 0; }
+    /* line 93, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-1of2 {
+        margin: 0 auto;
+        width: 50%; }
+    /* line 98, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-1of3 {
+        margin: 0 auto;
+        width: 33.33%; }
+    /* line 103, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-2of3 {
+        margin: 0 auto;
+        width: 66.66%; }
+    /* line 108, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-1of4 {
+        margin: 0 auto;
+        width: 25%; }
+    /* line 113, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-3of4 {
+        margin: 0 auto;
+        width: 75%; }
+    /* line 118, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-1of5 {
+        margin: 0 auto;
+        width: 20%; }
+    /* line 123, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-2of5 {
+        margin: 0 auto;
+        width: 40%; }
+    /* line 128, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-3of5 {
+        margin: 0 auto;
+        width: 60%; }
+    /* line 133, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .t-4of5 {
+        margin: 0 auto;
+        width: 80%; } }
 
 /* Landscape to small desktop */
 @media (min-width: 1030px) {
-	/* line 143, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-all {
-		margin: 0 auto;
-		width: 100%;
-		padding-right: 0; }
-	/* line 149, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of2 {
-		margin: 0 auto;
-		width: 50%; }
-	/* line 154, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of3 {
-		margin: 0 auto;
-		width: 50%; }
-	/* line 159, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-2of3 {
-		margin: 0 auto;
-		width: 66.66%; }
-	/* line 164, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of4 {
-		margin: 0 auto;
-		width: 25%; }
-	/* line 169, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-3of4 {
-		margin: 0 auto;
-		width: 75%; }
-	/* line 174, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of5 {
-		margin: 0 auto;
-		width: 20%; }
-	/* line 179, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-2of5 {
-		margin: 0 auto;
-		width: 40%; }
-	/* line 184, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-3of5 {
-		margin: 0 auto;
-		width: 60%; }
-	/* line 189, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-4of5 {
-		margin: 0 auto;
-		width: 80%; }
-	/* line 194, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of6 {
-		margin: 0 auto;
-		width: 16.6666666667%; }
-	/* line 199, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of7 {
-		margin: 0 auto;
-		width: 14.2857142857%; }
-	/* line 204, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-2of7 {
-		margin: 0 auto;
-		width: 28.5714286%; }
-	/* line 209, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-3of7 {
-		margin: 0 auto;
-		width: 42.8571429%; }
-	/* line 214, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-4of7 {
-		margin: 0 auto;
-		width: 57.1428572%; }
-	/* line 219, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-5of7 {
-		margin: 0 auto;
-		width: 71.4285715%; }
-	/* line 224, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-6of7 {
-		margin: 0 auto;
-		width: 85.7142857%; }
-	/* line 229, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of8 {
-		margin: 0 auto;
-		width: 12.5%; }
-	/* line 234, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of9 {
-		margin: 0 auto;
-		width: 11.1111111111%; }
-	/* line 239, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of10 {
-		margin: 0 auto;
-		width: 10%; }
-	/* line 244, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of11 {
-		margin: 0 auto;
-		width: 9.09090909091%; }
-	/* line 249, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
-	.d-1of12 {
-		margin: 0 auto;
-		width: 8.33%; } }
+    /* line 143, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-all {
+        margin: 0 auto;
+        width: 100%;
+        padding-right: 0; }
+    /* line 149, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of2 {
+        margin: 0 auto;
+        width: 50%; }
+    /* line 154, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of3 {
+        margin: 0 auto;
+        width: 50%; }
+    /* line 159, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-2of3 {
+        margin: 0 auto;
+        width: 66.66%; }
+    /* line 164, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of4 {
+        margin: 0 auto;
+        width: 25%; }
+    /* line 169, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-3of4 {
+        margin: 0 auto;
+        width: 75%; }
+    /* line 174, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of5 {
+        margin: 0 auto;
+        width: 20%; }
+    /* line 179, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-2of5 {
+        margin: 0 auto;
+        width: 40%; }
+    /* line 184, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-3of5 {
+        margin: 0 auto;
+        width: 60%; }
+    /* line 189, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-4of5 {
+        margin: 0 auto;
+        width: 80%; }
+    /* line 194, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of6 {
+        margin: 0 auto;
+        width: 16.6666666667%; }
+    /* line 199, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of7 {
+        margin: 0 auto;
+        width: 14.2857142857%; }
+    /* line 204, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-2of7 {
+        margin: 0 auto;
+        width: 28.5714286%; }
+    /* line 209, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-3of7 {
+        margin: 0 auto;
+        width: 42.8571429%; }
+    /* line 214, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-4of7 {
+        margin: 0 auto;
+        width: 57.1428572%; }
+    /* line 219, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-5of7 {
+        margin: 0 auto;
+        width: 71.4285715%; }
+    /* line 224, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-6of7 {
+        margin: 0 auto;
+        width: 85.7142857%; }
+    /* line 229, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of8 {
+        margin: 0 auto;
+        width: 12.5%; }
+    /* line 234, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of9 {
+        margin: 0 auto;
+        width: 11.1111111111%; }
+    /* line 239, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of10 {
+        margin: 0 auto;
+        width: 10%; }
+    /* line 244, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of11 {
+        margin: 0 auto;
+        width: 9.09090909091%; }
+    /* line 249, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss */
+    .d-1of12 {
+        margin: 0 auto;
+        width: 8.33%; } }
 
 /*********************
 IMPORTING MODULES
@@ -899,29 +899,29 @@ you can just remove this stylesheet.
 ******************************************************************/
 /* line 15, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_alerts.scss */
 .alert-help, .alert-info, .alert-error, .alert-success {
-	margin: 10px;
-	padding: 5px 18px;
-	border: 1px solid; }
+    margin: 10px;
+    padding: 5px 18px;
+    border: 1px solid; }
 
 /* line 21, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_alerts.scss */
 .alert-help {
-	border-color: #e8dc59;
-	background: #ebe16f; }
+    border-color: #e8dc59;
+    background: #ebe16f; }
 
 /* line 27, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_alerts.scss */
 .alert-info {
-	border-color: #bfe4f4;
-	background: #d5edf8; }
+    border-color: #bfe4f4;
+    background: #d5edf8; }
 
 /* line 33, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_alerts.scss */
 .alert-error {
-	border-color: #f8cdce;
-	background: #fbe3e4; }
+    border-color: #f8cdce;
+    background: #fbe3e4; }
 
 /* line 39, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_alerts.scss */
 .alert-success {
-	border-color: #deeaae;
-	background: #e6efc2; }
+    border-color: #deeaae;
+    background: #e6efc2; }
 
 /******************************************************************
 Site Name:
@@ -949,29 +949,29 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 *********************/
 /* line 27, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_buttons.scss */
 .blue-btn, .comment-reply-link, #submit {
-	display: inline-block;
-	position: relative;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-decoration: none;
-	color: #fff;
-	font-size: 0.9em;
-	font-size: 34px;
-	line-height: 34px;
-	font-weight: normal;
-	padding: 0 24px;
-	border-radius: 4px;
-	border: 0;
-	cursor: pointer;
-	-webkit-transition: background-color 0.14s ease-in-out;
-	transition: background-color 0.14s ease-in-out; }
+    display: inline-block;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: normal;
+    padding: 0 24px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    -webkit-transition: background-color 0.14s ease-in-out;
+    transition: background-color 0.14s ease-in-out; }
 /* line 44, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_buttons.scss */
 .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
-	color: #fff;
-	text-decoration: none;
-	outline: none; }
+    color: #fff;
+    text-decoration: none;
+    outline: none; }
 /* line 51, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_buttons.scss */
 .blue-btn:active, .comment-reply-link:active, #submit:active {
-	top: 1px; }
+    top: 1px; }
 
 /*
 An example button.
@@ -980,16 +980,16 @@ and it will create a button dependant on those variables.
 */
 /* line 62, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_buttons.scss */
 .blue-btn, .comment-reply-link, #submit {
-	background-color: #2980b9; }
+    background-color: #2980b9; }
 /* line 67, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_buttons.scss */
 .blue-btn:hover,
 .comment-reply-link:hover,
 #submit:hover,
 .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
-	background-color: #2574a8; }
+    background-color: #2574a8; }
 /* line 71, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_buttons.scss */
 .blue-btn:active, .comment-reply-link:active, #submit:active {
-	background-color: #2472a4; }
+    background-color: #2472a4; }
 
 /******************************************************************
 Site Name:
@@ -1029,23 +1029,23 @@ input[type="color"],
 select,
 textarea,
 .field {
-	display: block;
-	height: 40px;
-	line-height: 1em;
-	padding: 0 12px;
-	margin-bottom: 14px;
-	font-size: 1em;
-	color: #323944;
-	border-radius: 3px;
-	vertical-align: middle;
-	box-shadow: none;
-	border: 0;
-	width: 100%;
-	max-width: 400px;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color: #eaedf2;
-	-webkit-transition: background-color 0.24s ease-in-out;
-	transition: background-color 0.24s ease-in-out; }
+    display: block;
+    height: 40px;
+    line-height: 1em;
+    padding: 0 12px;
+    margin-bottom: 14px;
+    font-size: 1em;
+    color: #323944;
+    border-radius: 3px;
+    vertical-align: middle;
+    box-shadow: none;
+    border: 0;
+    width: 100%;
+    max-width: 400px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eaedf2;
+    -webkit-transition: background-color 0.24s ease-in-out;
+    transition: background-color 0.24s ease-in-out; }
 /* line 60, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_forms.scss */
 input[type="text"]:focus,
 input[type="text"]:active,
@@ -1081,8 +1081,8 @@ textarea:focus,
 textarea:active,
 .field:focus,
 .field:active {
-	background-color: #f7f8fa;
-	outline: none; }
+    background-color: #f7f8fa;
+    outline: none; }
 /* line 67, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_forms.scss */
 input[type="text"].error,
 input[type="text"].is-invalid,
@@ -1118,13 +1118,13 @@ textarea.error,
 textarea.is-invalid,
 .field.error,
 .field.is-invalid {
-	color: #fbe3e4;
-	border-color: #fbe3e4;
-	background-color: #fff;
-	background-position: 99% center;
-	background-repeat: no-repeat;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDREQkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDREQ0YwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3ODRGRkE2RjA0QTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERBRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+U8iT5wAAAedJREFUeNqk1U9I02Ecx/HtV3aIFAc1hcRDUoGXRAq0oNLA2CrsEFmHbikZu0iQYIFGYAiegkCpLipBxPpDEBMUzB0EhSG2LhG7hMR2GviPgUTvB57Bw8P3+U23B16HPX8+e/b8nt93wezZSMCnhXETF3AcB5BDCnH8Dq98ExcGHcFn8Ah3cdDni+fxnPDv9oAnTB7CKu6VCFXtChZy56LxUjt+jfuB8toSOth9wd7xWAWhqrUjYR/FRTwWJm+iIPT/w7bQf5ljiZnBg45dtKFX6H+LU8gIY8OEV6vgTkStwXWE8BPTGDHGPqNPz2mCfSOOYkA99TvCt1bhGPL68zMcwmncMuape10jrI+q4BbHi/FLn31S9z2x5tRhTc+1W506ipM+T3oRD4X+8+qtc4SqFvL0z/Fr14S+Szjis8bz9Lvvaq8cwS/wwGfdlqfPSWqTiFlX77o13u9Ym1PBs8JAytpRoy44X9Ft9E/gvbA+rYKn8NcaaMVc8UHgBw4b9/iqUQZ6hOAJFbyDcUflmsEX4a6+wTtHGfhAIUqa1U29Zc2BytouThD8x6xuN5CtMPi2CrXLZkZf/HyZoRFCP7n+QVR4PV7uI/AjGghN7OU/r1ilnqILtfpNC+o6vIFljBKYlhb/F2AAgaBsWR5wRiIAAAAASUVORK5CYII=);
-	outline-color: #fbe3e4; }
+    color: #fbe3e4;
+    border-color: #fbe3e4;
+    background-color: #fff;
+    background-position: 99% center;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDREQkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDREQ0YwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3ODRGRkE2RjA0QTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERBRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+U8iT5wAAAedJREFUeNqk1U9I02Ecx/HtV3aIFAc1hcRDUoGXRAq0oNLA2CrsEFmHbikZu0iQYIFGYAiegkCpLipBxPpDEBMUzB0EhSG2LhG7hMR2GviPgUTvB57Bw8P3+U23B16HPX8+e/b8nt93wezZSMCnhXETF3AcB5BDCnH8Dq98ExcGHcFn8Ah3cdDni+fxnPDv9oAnTB7CKu6VCFXtChZy56LxUjt+jfuB8toSOth9wd7xWAWhqrUjYR/FRTwWJm+iIPT/w7bQf5ljiZnBg45dtKFX6H+LU8gIY8OEV6vgTkStwXWE8BPTGDHGPqNPz2mCfSOOYkA99TvCt1bhGPL68zMcwmncMuape10jrI+q4BbHi/FLn31S9z2x5tRhTc+1W506ipM+T3oRD4X+8+qtc4SqFvL0z/Fr14S+Szjis8bz9Lvvaq8cwS/wwGfdlqfPSWqTiFlX77o13u9Ym1PBs8JAytpRoy44X9Ft9E/gvbA+rYKn8NcaaMVc8UHgBw4b9/iqUQZ6hOAJFbyDcUflmsEX4a6+wTtHGfhAIUqa1U29Zc2BytouThD8x6xuN5CtMPi2CrXLZkZf/HyZoRFCP7n+QVR4PV7uI/AjGghN7OU/r1ilnqILtfpNC+o6vIFljBKYlhb/F2AAgaBsWR5wRiIAAAAASUVORK5CYII=);
+    outline-color: #fbe3e4; }
 /* line 79, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_forms.scss */
 input[type="text"].success,
 input[type="text"].is-valid,
@@ -1160,13 +1160,13 @@ textarea.success,
 textarea.is-valid,
 .field.success,
 .field.is-valid {
-	color: #e6efc2;
-	border-color: #e6efc2;
-	background-color: #fff;
-	background-position: 99% center;
-	background-repeat: no-repeat;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDRERkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDRFMEYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY0MzQ0NERERjA0QjExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERFRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7olkTQAAAfhJREFUeNqklU9oE0EUhzdroWjw0tBeWlDxkEaIp55TsCU9VKIgCrHBelA8CQ1Kr1WPbZrQ3gqtQqvGqxpQc2jBk6BIIaAGD4qNCKURpDSKiPi98gLDsJt//uBjsztvfnk7895sIPAw6/joGMThFJyAXn2+A+9gA57/TaY/eU0OeBgfhGm4DiGnsb7DAszxBz/NAdcKjMJLuNWCqagHbsscN5+L+hmH4QkMOe1L5jzFfNA2PgT34ajTuY7AGuZB0/hmh5m+gS0r8xv1zRvg+gGCHZiOwnF4DP3iB3sQkYxPd2C6CWfhB9Xwlus5+K1j4jXuaq3a+gM1H9OPcAa+7q9lPidZJqHbiIm7Wg22rsEI7FrPSzAMX/T+ADyAKSsu7Fr1KplehLvwCs5DvfBf65p+MypqRbO1FXK9utH4/QKuaqYTsG3E3INJv00Q46px3+XxanJ/Ute2/vqP4FKDza2KcdljIKdnhS0xXYULTaqmLMZFn8FFSFtvt6x70ExFCS5oUXspq2ssa7oEl1swFa+CGFdgtkHgPDyDKy02zyxNU6lXRUZb1EuHYayNNs+Yh5B0WQo+/8fpJnNTZFuzz2OpjoQ2QruSOQlMy35fEGmEGMxY9e1brxobw7TkWA1h6xfckUPb+JhGoE/Hpfvew7qUld/H9J8AAwDpw3WYrxcZ3QAAAABJRU5ErkJggg==);
-	outline-color: #e6efc2; }
+    color: #e6efc2;
+    border-color: #e6efc2;
+    background-color: #fff;
+    background-position: 99% center;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NDM0NDRERkYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NDM0NDRFMEYwNEIxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY0MzQ0NERERjA0QjExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY0MzQ0NERFRjA0QjExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7olkTQAAAfhJREFUeNqklU9oE0EUhzdroWjw0tBeWlDxkEaIp55TsCU9VKIgCrHBelA8CQ1Kr1WPbZrQ3gqtQqvGqxpQc2jBk6BIIaAGD4qNCKURpDSKiPi98gLDsJt//uBjsztvfnk7895sIPAw6/joGMThFJyAXn2+A+9gA57/TaY/eU0OeBgfhGm4DiGnsb7DAszxBz/NAdcKjMJLuNWCqagHbsscN5+L+hmH4QkMOe1L5jzFfNA2PgT34ajTuY7AGuZB0/hmh5m+gS0r8xv1zRvg+gGCHZiOwnF4DP3iB3sQkYxPd2C6CWfhB9Xwlus5+K1j4jXuaq3a+gM1H9OPcAa+7q9lPidZJqHbiIm7Wg22rsEI7FrPSzAMX/T+ADyAKSsu7Fr1KplehLvwCs5DvfBf65p+MypqRbO1FXK9utH4/QKuaqYTsG3E3INJv00Q46px3+XxanJ/Ute2/vqP4FKDza2KcdljIKdnhS0xXYULTaqmLMZFn8FFSFtvt6x70ExFCS5oUXspq2ssa7oEl1swFa+CGFdgtkHgPDyDKy02zyxNU6lXRUZb1EuHYayNNs+Yh5B0WQo+/8fpJnNTZFuzz2OpjoQ2QruSOQlMy35fEGmEGMxY9e1brxobw7TkWA1h6xfckUPb+JhGoE/Hpfvew7qUld/H9J8AAwDpw3WYrxcZ3QAAAABJRU5ErkJggg==);
+    outline-color: #e6efc2; }
 /* line 91, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_forms.scss */
 input[type="text"][disabled],
 input[type="text"].is-disabled,
@@ -1202,9 +1202,9 @@ textarea[disabled],
 textarea.is-disabled,
 .field[disabled],
 .field.is-disabled {
-	cursor: not-allowed;
-	border-color: #cfcfcf;
-	opacity: 0.6; }
+    cursor: not-allowed;
+    border-color: #cfcfcf;
+    opacity: 0.6; }
 /* line 97, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_forms.scss */
 input[type="text"][disabled]:focus,
 input[type="text"][disabled]:active,
@@ -1274,27 +1274,27 @@ textarea.is-disabled:active,
 .field[disabled]:active,
 .field.is-disabled:focus,
 .field.is-disabled:active {
-	background-color: #d5edf8; }
+    background-color: #d5edf8; }
 
 /* line 106, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_forms.scss */
 input[type="password"] {
-	letter-spacing: 0.3em; }
+    letter-spacing: 0.3em; }
 
 /* line 111, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_forms.scss */
 textarea {
-	max-width: 100%;
-	min-height: 120px;
-	line-height: 1.5em; }
+    max-width: 100%;
+    min-height: 120px;
+    line-height: 1.5em; }
 
 /* line 118, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/modules/_forms.scss */
 select {
-	-webkit-appearance: none;
-	/* 1 */
-	-moz-appearance: none;
-	appearance: none;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAHCAYAAADXhRcnAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEOEZCMjYxMEYwNUUxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEOEZCMjYxMUYwNUUxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQ4RkIyNjBFRjA1RTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkQ4RkIyNjBGRjA1RTExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Vxkp9gAAAI9JREFUeNpidHFxucHAwKAOxE+AmJmBMPgLxDJAfJMFSKwD4kqoAClgA+P///8ZXF1dPaCGcBKh6QcQB+3evXs7WDMIAA2QB1I7gFgDj0aQFz2BGh+AOEwwUaDAQyBlCMR7cGjcC5KHaQQBuM3IAOiKTiBVhiTUDdRUhq4Oq2aoAelAahIQ5wM1zsCmBiDAADhYMJXVZ9u9AAAAAElFTkSuQmCC);
-	background-repeat: no-repeat;
-	background-position: 97.5% center; }
+    -webkit-appearance: none;
+    /* 1 */
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAHCAYAAADXhRcnAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEOEZCMjYxMEYwNUUxMUUyOTI4REZGQTEzMzA2MDcyNiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEOEZCMjYxMUYwNUUxMUUyOTI4REZGQTEzMzA2MDcyNiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQ4RkIyNjBFRjA1RTExRTI5MjhERkZBMTMzMDYwNzI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkQ4RkIyNjBGRjA1RTExRTI5MjhERkZBMTMzMDYwNzI2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Vxkp9gAAAI9JREFUeNpidHFxucHAwKAOxE+AmJmBMPgLxDJAfJMFSKwD4kqoAClgA+P///8ZXF1dPaCGcBKh6QcQB+3evXs7WDMIAA2QB1I7gFgDj0aQFz2BGh+AOEwwUaDAQyBlCMR7cGjcC5KHaQQBuM3IAOiKTiBVhiTUDdRUhq4Oq2aoAelAahIQ5wM1zsCmBiDAADhYMJXVZ9u9AAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: 97.5% center; }
 
 /*********************
 BASE (MOBILE) SIZE
@@ -1319,22 +1319,22 @@ GENERAL STYLES
 *********************/
 /* line 18, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 body {
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 100%;
-	line-height: 1.5;
-	color: #323944;
-	background-color: #eaedf2;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale; }
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #323944;
+    background-color: #eaedf2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
 
 /* mobile menu */
 #mobile-button {
 
 }
 #mobile-button a {
-	float: right;
-	background: transparent;
-	margin: 1.2em 1em 0 0;
+    float: right;
+    background: transparent;
+    margin: 1.2em 1em 0 0;
 }
 /********************
 WORDPRESS BODY CLASSES
@@ -1380,144 +1380,144 @@ LAYOUT & GRID STYLES
 *********************/
 /* line 73, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .wrap {
-	width: 96%;
-	margin: 0 auto; }
+    width: 96%;
+    margin: 0 auto; }
 
 /********************
 PARALAX CONTENT
 ********************/
 /* line 81, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .para {
-	height: 100vh;
-	overflow: hidden;
-	/* fix background */
-	background-attachment: fixed;
-	/* center it */
-	background-position: center center;
-	/* Scale it nicely to the element */
-	background-size: cover;
-	transition: all 999999s }
+    height: 100vh;
+    overflow: hidden;
+    /* fix background */
+    background-attachment: fixed;
+    /* center it */
+    background-position: center center;
+    /* Scale it nicely to the element */
+    background-size: cover;
+    transition: all 999999s }
 /* line 98, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .para:nth-child(2n) {
-	box-shadow: inset 0 0 0em #111; }
+    box-shadow: inset 0 0 0em #111; }
 
 /* line 102, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .para-half {
-	height: 50vh;
-	overflow: hidden;
-	/* fix background */
-	background-attachment: fixed;
-	/* center it */
-	background-position: center center;
-	/* Scale it nicely to the element */
-	background-size: cover;
-	transition: all 999999s
-		/* just make it look a bit better ;) */ }
+    height: 50vh;
+    overflow: hidden;
+    /* fix background */
+    background-attachment: fixed;
+    /* center it */
+    background-position: center center;
+    /* Scale it nicely to the element */
+    background-size: cover;
+    transition: all 999999s
+        /* just make it look a bit better ;) */ }
 /* line 119, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .para-half:nth-child(2n) {
-	box-shadow: inset 0 0 0em #111; }
+    box-shadow: inset 0 0 0em #111; }
 
 /* line 124, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .img-bg {
-	background:
-	url("http://www.kaarlitalu.ee/wp-content/uploads/2017/01/kaaarli.png") bottom right no-repeat,
-	url("http://www.kaarlitalu.ee/wp-content/uploads/2015/10/grey_sandbag.png") center center repeat;
-	/*background-position: center center;
-	height: auto; */}
+    background:
+        url("http://www.kaarlitalu.ee/wp-content/uploads/2017/01/kaaarli.png") bottom right no-repeat,
+        url("http://www.kaarlitalu.ee/wp-content/uploads/2015/10/grey_sandbag.png") center center repeat;
+    /*background-position: center center;
+    height: auto; */}
 
 /* line 131, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .img-1 {
-	background-image: url("http://www.kaarlitalu.ee/wp-content/uploads/2017/01/vili_opt.jpg"); }
+    background-image: url("http://www.kaarlitalu.ee/wp-content/uploads/2017/01/vili_opt.jpg"); }
 
 /* line 135, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .img-2 {
-	background-image: url("http://www.kaarlitalu.ee/wp-content/uploads/2017/01/leivad_opt.jpg"); }
+    background-image: url("http://www.kaarlitalu.ee/wp-content/uploads/2017/01/leivad_opt.jpg"); }
 
 /* line 139, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .img-3 {
-	background-image: url("http://www.kaarlitalu.ee/wp-content/uploads/2017/01/pold_opt.jpg"); }
+    background-image: url("http://www.kaarlitalu.ee/wp-content/uploads/2017/01/pold_opt.jpg"); }
 
 /*********************
 LINK STYLES
 *********************/
 /* line 147, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 a, a:visited {
-	color: #323944;
-	/* on hover */
-	/* on click */
-	/* mobile tap color */ }
+    color: #323944;
+    /* on hover */
+    /* on click */
+    /* mobile tap color */ }
 /* line 151, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-	color: #1f232a; }
+    color: #1f232a; }
 /* line 161, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 a:link, a:visited:link {
-	/*
-	this highlights links on iPhones/iPads.
-	so it basically works like the :hover selector
-	for mobile devices.
-	*/
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
+    /*
+    this highlights links on iPhones/iPads.
+    so it basically works like the :hover selector
+    for mobile devices.
+    */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 /* line 175, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	text-rendering: optimizelegibility;
-	font-weight: 500;
-	/*
-	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
-	*/
-	/* removing text decoration from all headline links */ }
+    text-rendering: optimizelegibility;
+    font-weight: 500;
+    /*
+    if you're going to use webfonts, be sure to check your weights
+    http://css-tricks.com/watch-your-font-weight/
+    */
+    /* removing text decoration from all headline links */ }
 /* line 184, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
-	text-decoration: none; }
+    text-decoration: none; }
 
 /* line 189, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 h1, .h1 {
-	font-size: 2.5em;
-	line-height: 1.333em;
-	font-family: "Amatic-Bold"; }
+    font-size: 2.5em;
+    line-height: 1.333em;
+    font-family: "Amatic-Bold"; }
 
 /* line 195, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 h2, .h2 {
-	font-size: 1.75em;
-	line-height: 1.4em;
-	margin-bottom: 0.375em; }
+    font-size: 1.75em;
+    line-height: 1.4em;
+    margin-bottom: 0.375em; }
 
 /* line 201, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 h3, .h3 {
-	font-size: 1.125em; }
+    font-size: 1.125em; }
 
 /* line 205, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 h4, .h4 {
-	font-size: 1.1em;
-	font-weight: 700; }
+    font-size: 1.1em;
+    font-weight: 700; }
 
 /* line 210, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 h5, .h5 {
-	font-size: 0.846em;
-	line-height: 2.09em;
-	text-transform: uppercase;
-	letter-spacing: 2px; }
+    font-size: 0.846em;
+    line-height: 2.09em;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
 
 /*********************
 HEADER STYLES
 *********************/
 /* line 221, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .header {
-	background-color: #f2a900;
-	border-bottom: 4px solid #e29e00;
-	top: 0;
-	z-index: 1; }
+    background-color: #f2a900;
+    border-bottom: 4px solid #e29e00;
+    top: 0;
+    z-index: 1; }
 
 /* line 228, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #logo {
-	margin: .75em 0 0 0;}
+    margin: .75em 0 0 0;}
 /* line 231, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #logo a {
-	color: #fff; }
+    color: #fff; }
 
 /*********************
 NAVIGATION STYLES
@@ -1531,54 +1531,60 @@ and more scalable.
 */
 /* line 248, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #menu-main {
-left: 0;
- border-top: 4px solid white;
-display: none;
-position: absolute;
-width: 100%;
-background: #f2a900;
-border-bottom: 4px solid #e29e00;
-z-index: 1;
+    left: 0;
+    border-top: 4px solid white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    background: #f2a900;
+    border-bottom: 4px solid #e29e00;
+    z-index: 1;
 }
 #menu-main.open {
-	display: block;
+    display: block;
+}
 
+#menu-main > .menu-item-has-children > a {
+    border-bottom: 2px solid;
+    margin: 0 20px;
+    padding: 0 10px;
+    text-align: center;
 }
 
 .nav {
-	border-bottom: 0;
-	margin: 0;
+    border-bottom: 0;
+    margin: 0;
 
-/* end .menu li */
-	/* highlight current page */
-	/* end current highlighters */ }
+    /* end .menu li */
+    /* highlight current page */
+    /* end current highlighters */ }
 /* line 252, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .nav li {
-	/*
-	so you really have to rethink your dropdowns for mobile.
-	you don't want to have it expand too much because the
-	screen is so small. How you manage your menu should
-	depend on the project. Here's some great info on it:
-	http://www.alistapart.com/articles/organizing-mobile/
-	*/ }
+    /*
+    so you really have to rethink your dropdowns for mobile.
+    you don't want to have it expand too much because the
+    screen is so small. How you manage your menu should
+    depend on the project. Here's some great info on it:
+    http://www.alistapart.com/articles/organizing-mobile/
+    */ }
 /* line 254, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .nav li a {
-	display: block;
-	font-family: "Amatic-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 40px;
-	color: #fff;
-	text-decoration: none;
-	padding: 0 0.75em;
-	/*
-	remember this is for mobile ONLY, so there's no need
-	to even declare hover styles here, you can do it in
-	the style.scss file where it's relevant. We want to
-	keep this file as small as possible!
-	*/ }
+    display: block;
+    font-family: "Amatic-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 0.75em;
+    /*
+    remember this is for mobile ONLY, so there's no need
+    to even declare hover styles here, you can do it in
+    the style.scss file where it's relevant. We want to
+    keep this file as small as possible!
+    */ }
 /* line 289, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
-	padding-left: 30px; }
+    padding-left: 30px; }
 
 /* end .nav */
 /*********************
@@ -1586,105 +1592,105 @@ POSTS & CONTENT STYLES
 *********************/
 /* line 324, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .v-center {
-	margin-top: 35vh;
-	transition: all 999999s;	}
+    margin-top: 35vh;
+    transition: all 999999s;	}
 
 /* line 328, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .lead {
-	color: #fff;
-	text-align: center;
-	font-family: "Amatic-Bold";
-	font-weight: 400;
-	font-size: 40px;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
+    color: #fff;
+    text-align: center;
+    font-family: "Amatic-Bold";
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
 
 /* line 337, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content {
-	padding: 6em 0em 3em; }
+    padding: 6em 0em 3em; }
 
 /* line 341, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .content-border-top {
-	width: 100%;
-	margin: -1.3em auto 0;
-	padding: 0.3em;
-	text-indent: 0;
-	background: #f2a900;
-	border-bottom: 1px solid white;
-	z-index: 10000; }
+    width: 100%;
+    margin: -1.3em auto 0;
+    padding: 0.3em;
+    text-indent: 0;
+    background: #f2a900;
+    border-bottom: 1px solid white;
+    z-index: 10000; }
 
 /* line 350, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .content-border-bottom {
-	width: 100%;
-	margin: auto;
-	padding: 0.3em;
-	text-indent: 0;
-	background: #f2a900;
-	border-top: 1px solid white;
-	z-index: 2; }
+    width: 100%;
+    margin: auto;
+    padding: 0.3em;
+    text-indent: 0;
+    background: #f2a900;
+    border-top: 1px solid white;
+    z-index: 2; }
 
 /* line 359, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .badge-container {
-	position: relative;
+    position: relative;
 }
 
 /* line 362, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .badge {
-	top: 0; left: 0; bottom: 0; right: 0;
-	position: absolute;
-	height: 15em;
-	overflow: auto;
-	margin: -7.5em auto 6em;
-	padding: 3em;
-	text-indent: 0px;
-	background: url(http://www.kaarlitalu.ee/wp-content/uploads/2015/10/badge_framed_sml.png) center center no-repeat; }
+    top: 0; left: 0; bottom: 0; right: 0;
+    position: absolute;
+    height: 15em;
+    overflow: auto;
+    margin: -7.5em auto 6em;
+    padding: 3em;
+    text-indent: 0px;
+    background: url(http://www.kaarlitalu.ee/wp-content/uploads/2015/10/badge_framed_sml.png) center center no-repeat; }
 
 /* line 372, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .badge-text {
-	text-align: center;
-	font-size: 50px;
-	color: #fff;
-	margin: 0.6em 0 0;
-	font-family: "Amatic-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 0.6em 0 0;
+    font-family: "Amatic-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
 
 /* line 381, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #content {
-	margin-top: 0em; }
+    margin-top: 0em; }
 
 /* line 385, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .content-logo {
-	text-align: center; }
+    text-align: center; }
 
 /* line 391, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content .content-logo img {
-	height: 50px;
-	margin: 0 0 0px;
-	opacity: 0.7;
-	border: 0px solid; }
+    height: 50px;
+    margin: 0 0 0px;
+    opacity: 0.7;
+    border: 0px solid; }
 
 /* line 398, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .hentry {
-	background-color: transparent;
-	border-radius: 3px;
-	margin-bottom: 1.5em; }
+    background-color: transparent;
+    border-radius: 3px;
+    margin-bottom: 1.5em; }
 /* line 404, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .hentry header {
-	border-bottom: 1px solid #f8f9fa;
-	padding: 1.5em; }
+    border-bottom: 1px solid #f8f9fa;
+    padding: 1.5em; }
 /* line 409, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .hentry footer {
-	padding: 1.5em;
-	border-top: 1px solid #f8f9fa; }
+    padding: 1.5em;
+    border-top: 1px solid #f8f9fa; }
 /* line 413, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .hentry footer p {
-	margin: 0; }
+    margin: 0; }
 
 /* end .hentry */
 /* line 422, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .single-title,
 .page-title,
 .entry-title {
-	margin: 0; }
+    margin: 0; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -1698,109 +1704,109 @@ POSTS & CONTENT STYLES
 /* post meta */
 /* line 445, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .byline {
-	color: #9fa6b4;
-	font-style: italic;
-	margin: 0; }
+    color: #9fa6b4;
+    font-style: italic;
+    margin: 0; }
 
 /* entry content */
 /* line 454, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content {
-	/*
-	image alignment on a screen this size may be
-	a bit difficult. It's set to start aligning
-	and floating images at the next breakpoint,
-	but it's up to you. Feel free to change it up.
-	*/ }
+    /*
+    image alignment on a screen this size may be
+    a bit difficult. It's set to start aligning
+    and floating images at the next breakpoint,
+    but it's up to you. Feel free to change it up.
+    */ }
 /* line 456, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content p {
-	margin: 0 0 1.5em; }
+    margin: 0 0 1.5em; }
 /* line 481, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content table {
-	width: 100%;
-	border: 1px solid #eaedf2;
-	margin-bottom: 1.5em; }
+    width: 100%;
+    border: 1px solid #eaedf2;
+    margin-bottom: 1.5em; }
 /* line 486, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content table caption {
-	margin: 0 0 7px;
-	font-size: 0.75em;
-	color: #9fa6b4;
-	text-transform: uppercase;
-	letter-spacing: 1px; }
+    margin: 0 0 7px;
+    font-size: 0.75em;
+    color: #9fa6b4;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
 /* line 495, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content tr {
-	border-bottom: 1px solid #eaedf2; }
+    border-bottom: 1px solid #eaedf2; }
 /* line 498, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content tr:nth-child(even) {
-	background-color: #f8f9fa; }
+    background-color: #f8f9fa; }
 /* line 503, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content td {
-	padding: 7px;
-	border-right: 1px solid #eaedf2; }
+    padding: 7px;
+    border-right: 1px solid #eaedf2; }
 /* line 507, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content td:last-child {
-	border-right: 0; }
+    border-right: 0; }
 /* line 512, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content th {
-	background-color: #f8f9fa;
-	border-bottom: 1px solid #eaedf2;
-	border-right: 1px solid #eaedf2; }
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaedf2;
+    border-right: 1px solid #eaedf2; }
 /* line 517, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content th:last-child {
-	border-right: 0; }
+    border-right: 0; }
 /* line 522, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content blockquote {
-	margin: 0 0 1.5em 0.75em;
-	padding: 0 0 0 0.75em;
-	border-left: 3px solid #2980b9;
-	font-style: italic;
-	color: #9fa6b4; }
+    margin: 0 0 1.5em 0.75em;
+    padding: 0 0 0 0.75em;
+    border-left: 3px solid #2980b9;
+    font-style: italic;
+    color: #9fa6b4; }
 /* line 537, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content dd {
-	margin-left: 0;
-	font-size: 0.9em;
-	color: #787878;
-	margin-bottom: 1.5em; }
+    margin-left: 0;
+    font-size: 0.9em;
+    color: #787878;
+    margin-bottom: 1.5em; }
 /* line 544, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content img {
-	margin: 0 0 1.5em 0;
-	max-width: 100%;
-	height: auto;
-	/*border: 7px solid #ceb888;*/
-	border-radius: 3px; }
+    margin: 0 0 1.5em 0;
+    max-width: 100%;
+    height: auto;
+    /*border: 7px solid #ceb888;*/
+    border-radius: 3px; }
 /* line 567, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
 .entry-content .size-medium,
 .entry-content .size-thumbnail {
-	max-width: 100%;
-	height: auto; }
+    max-width: 100%;
+    height: auto; }
 /* line 572, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .entry-content pre {
-	background: #323944;
-	color: #f8f9fa;
-	font-size: 0.9em;
-	padding: 1.5em;
-	margin: 0 0 1.5em;
-	border-radius: 3px; }
+    background: #323944;
+    color: #f8f9fa;
+    font-size: 0.9em;
+    padding: 1.5em;
+    margin: 0 0 1.5em;
+    border-radius: 3px; }
 
 /* end .entry-content */
 /* line 583, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .wp-caption {
-	max-width: 100%;
-	background: #eee;
-	padding: 5px;
-	/* images inside wp-caption */ }
+    max-width: 100%;
+    background: #eee;
+    padding: 5px;
+    /* images inside wp-caption */ }
 /* line 589, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .wp-caption img {
-	max-width: 100%;
-	margin-bottom: 0;
-	width: 100%; }
+    max-width: 100%;
+    margin-bottom: 0;
+    width: 100%; }
 /* line 595, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .wp-caption p.wp-caption-text {
-	font-size: 0.85em;
-	margin: 4px 0 7px;
-	text-align: center; }
+    font-size: 0.85em;
+    margin: 4px 0 7px;
+    text-align: center; }
 
 /* end .wp-caption */
 /* image gallery styles */
@@ -1808,7 +1814,7 @@ POSTS & CONTENT STYLES
 /* gallery caption styles */
 /* line 629, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .tags {
-	margin: 0; }
+    margin: 0; }
 
 /******************************************************************
 PAGE NAVI STYLES
@@ -1816,61 +1822,61 @@ PAGE NAVI STYLES
 /* line 638, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .pagination,
 .wp-prev-next {
-	margin: 1.5em 0; }
+    margin: 1.5em 0; }
 
 /* line 641, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .pagination {
-	text-align: center; }
+    text-align: center; }
 /* line 644, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .pagination ul {
-	display: inline-block;
-	background-color: #fff;
-	white-space: nowrap;
-	padding: 0;
-	clear: both;
-	border-radius: 3px; }
+    display: inline-block;
+    background-color: #fff;
+    white-space: nowrap;
+    padding: 0;
+    clear: both;
+    border-radius: 3px; }
 /* line 653, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .pagination li {
-	padding: 0;
-	margin: 0;
-	float: left;
-	display: inline;
-	overflow: hidden;
-	border-right: 1px solid #eaedf2; }
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    border-right: 1px solid #eaedf2; }
 /* line 662, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .pagination a, .pagination span {
-	margin: 0;
-	text-decoration: none;
-	padding: 0;
-	line-height: 1em;
-	font-size: 1em;
-	font-weight: normal;
-	padding: 0.75em;
-	min-width: 1em;
-	display: block;
-	color: #2980b9; }
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    line-height: 1em;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 0.75em;
+    min-width: 1em;
+    display: block;
+    color: #2980b9; }
 /* line 674, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
-	background-color: #2980b9;
-	color: #fff; }
+    background-color: #2980b9;
+    color: #fff; }
 /* line 680, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .pagination .current {
-	cursor: default;
-	color: #323944; }
+    cursor: default;
+    color: #323944; }
 /* line 684, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .pagination .current:hover, .pagination .current:focus {
-	background-color: #fff;
-	color: #323944; }
+    background-color: #fff;
+    color: #323944; }
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
 /* line 697, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .wp-prev-next .prev-link {
-	float: left; }
+    float: left; }
 
 /* line 701, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .wp-prev-next .next-link {
-	float: right; }
+    float: right; }
 
 /* end .wp-prev-next */
 /******************************************************************
@@ -1879,196 +1885,196 @@ COMMENT STYLES
 /* h3 comment title */
 /* line 712, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #comments-title {
-	padding: 0.75em;
-	margin: 0;
-	border-top: 1px solid #f8f9fa;
-	/* number of comments span */ }
+    padding: 0.75em;
+    margin: 0;
+    border-top: 1px solid #f8f9fa;
+    /* number of comments span */ }
 
 /* line 732, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .commentlist {
-	margin: 0;
-	list-style-type: none; }
+    margin: 0;
+    list-style-type: none; }
 
 /* line 737, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment {
-	position: relative;
-	clear: both;
-	overflow: hidden;
-	padding: 1.5em;
-	border-bottom: 1px solid #f8f9fa;
-	/* vcard */
-	/* end .commentlist .vcard */
-	/* end children */
-	/* general comment classes */ }
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    padding: 1.5em;
+    border-bottom: 1px solid #f8f9fa;
+    /* vcard */
+    /* end .commentlist .vcard */
+    /* end children */
+    /* general comment classes */ }
 /* line 744, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment .comment-author {
-	padding: 7px;
-	border: 0; }
+    padding: 7px;
+    border: 0; }
 /* line 750, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment .vcard {
-	margin-left: 50px; }
+    margin-left: 50px; }
 /* line 753, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment .vcard cite.fn {
-	font-weight: 700;
-	font-style: normal; }
+    font-weight: 700;
+    font-style: normal; }
 /* line 761, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment .vcard time {
-	display: block;
-	font-size: 0.9em;
-	font-style: italic; }
+    display: block;
+    font-size: 0.9em;
+    font-style: italic; }
 /* line 766, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment .vcard time a {
-	color: #9fa6b4;
-	text-decoration: none; }
+    color: #9fa6b4;
+    text-decoration: none; }
 /* line 770, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment .vcard time a:hover {
-	text-decoration: underline; }
+    text-decoration: underline; }
 /* line 780, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment .vcard .avatar {
-	position: absolute;
-	left: 16px;
-	border-radius: 50%; }
+    position: absolute;
+    left: 16px;
+    border-radius: 50%; }
 /* line 788, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment:last-child {
-	margin-bottom: 0; }
+    margin-bottom: 0; }
 /* line 792, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment .children {
-	margin: 0;
-	/* variations */
-	/* change number for different depth */ }
+    margin: 0;
+    /* variations */
+    /* change number for different depth */ }
 /* line 810, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment[class*=depth-] {
-	margin-top: 1.1em; }
+    margin-top: 1.1em; }
 /* line 814, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment.depth-1 {
-	margin-left: 0;
-	margin-top: 0; }
+    margin-left: 0;
+    margin-top: 0; }
 /* line 819, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment:not(.depth-1) {
-	margin-top: 0;
-	margin-left: 7px;
-	padding: 7px; }
+    margin-top: 0;
+    margin-left: 7px;
+    padding: 7px; }
 /* line 832, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment.odd {
-	background-color: #fff; }
+    background-color: #fff; }
 /* line 835, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment.even {
-	background: #f8f9fa; }
+    background: #f8f9fa; }
 
 /* comment meta */
 /* comment content */
 /* line 869, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment_content p {
-	margin: 0.7335em 0 1.5em;
-	font-size: 1em;
-	line-height: 1.5em; }
+    margin: 0.7335em 0 1.5em;
+    font-size: 1em;
+    line-height: 1.5em; }
 
 /* end .commentlist .comment_content */
 /* comment reply link */
 /* line 878, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment-reply-link {
-	font-size: 0.9em;
-	float: right; }
+    font-size: 0.9em;
+    float: right; }
 
 /* end .commentlist .comment-reply-link */
 /* edit comment link */
 /* line 890, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment-edit-link {
-	font-style: italic;
-	margin: 0 7px;
-	text-decoration: none;
-	font-size: 0.9em; }
+    font-style: italic;
+    margin: 0 7px;
+    text-decoration: none;
+    font-size: 0.9em; }
 
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
 /* line 903, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment-respond {
-	padding: 1.5em;
-	border-top: 1px solid #f8f9fa; }
+    padding: 1.5em;
+    border-top: 1px solid #f8f9fa; }
 
 /* line 909, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #reply-title {
-	margin: 0; }
+    margin: 0; }
 
 /* line 913, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .logged-in-as {
-	color: #9fa6b4;
-	font-style: italic;
-	margin: 0; }
+    color: #9fa6b4;
+    font-style: italic;
+    margin: 0; }
 /* line 918, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .logged-in-as a {
-	color: #323944; }
+    color: #323944; }
 
 /* line 923, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .comment-form-comment {
-	margin: 1.5em 0 0.75em; }
+    margin: 1.5em 0 0.75em; }
 
 /* line 927, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .form-allowed-tags {
-	padding: 1.5em;
-	background-color: #f8f9fa;
-	font-size: 0.9em; }
+    padding: 1.5em;
+    background-color: #f8f9fa;
+    font-size: 0.9em; }
 
 /* comment submit button */
 /* line 934, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #submit {
-	float: right;
-	font-size: 1em; }
+    float: right;
+    font-size: 1em; }
 
 /* comment form title */
 /* line 941, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #comment-form-title {
-	margin: 0 0 1.1em; }
+    margin: 0 0 1.1em; }
 
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
 /* line 954, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #allowed_tags {
-	margin: 1.5em 10px 0.7335em 0; }
+    margin: 1.5em 10px 0.7335em 0; }
 
 /* no comments */
 /* line 959, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .nocomments {
-	margin: 0 20px 1.1em; }
+    margin: 0 20px 1.1em; }
 
 /*********************
 SIDEBARS & ASIDES
 *********************/
 /* line 975, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .widget ul li {
-	/* deep nesting */ }
+    /* deep nesting */ }
 
 /* line 992, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .no-widgets {
-	background-color: #fff;
-	padding: 1.5em;
-	text-align: center;
-	border: 1px solid #ccc;
-	border-radius: 2px;
-	margin-bottom: 1.5em; }
+    background-color: #fff;
+    padding: 1.5em;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 1.5em; }
 
 /*********************
 FOOTER STYLES
 *********************/
 /* line 1005, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .footer {
-	clear: both;
-	background-color: #ceb888;
-	color: #323944;
-	border-top: 10px solid #C8AE78; }
+    clear: both;
+    background-color: #ceb888;
+    color: #323944;
+    border-top: 10px solid #C8AE78; }
 
 /* line 1011, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 #inner-footer {
-	text-align: center;
-	padding: 2em; }
+    text-align: center;
+    padding: 2em; }
 
 /* line 1017, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_base.scss */
 .footer-text p {
-	margin: 0;
-	padding: 0;
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /*
 if you checked out the link above:
@@ -2087,87 +2093,87 @@ larger than an iPhone but smaller than a tablet. Let's call them
 tweeners.
 *********************/
 @media only screen and (min-width: 481px) {
-	/******************************************************************
-	Site Name:
-	Author:
+    /******************************************************************
+    Site Name:
+    Author:
 
-	Stylesheet: 481px and Up Stylesheet
+    Stylesheet: 481px and Up Stylesheet
 
-	This stylesheet is loaded for larger devices. It's set to
-	481px because at 480px it would load on a landscaped iPhone.
-	This isn't ideal because then you would be loading all those
-	extra styles on that same mobile connection.
+    This stylesheet is loaded for larger devices. It's set to
+    481px because at 480px it would load on a landscaped iPhone.
+    This isn't ideal because then you would be loading all those
+    extra styles on that same mobile connection.
 
-	A word of warning. This size COULD be a larger mobile device,
-	so you still want to keep it pretty light and simply expand
-	upon your base.scss styles.
+    A word of warning. This size COULD be a larger mobile device,
+    so you still want to keep it pretty light and simply expand
+    upon your base.scss styles.
 
-	******************************************************************/
-	/*
-	IMPORTANT NOTE ABOUT SASS 3.3 & UP
-	You can't use @extend within media queries
-	anymore, so just be aware that if you drop
-	them in here, they won't work.
-	*/
-	/*********************
-	NAVIGATION STYLES
-	*********************/
-	/* .menu is clearfixed inside mixins.scss */
-	/* line 33, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.menu {
-		/* end .menu ul */ }
-	/* line 34, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.menu ul {
-		/* end .menu ul li */
-		/* highlight current page */
-		/* end current highlighters */ }
-	/* line 35, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.menu ul li {
-		/*
-		plan your menus and drop-downs wisely.
-		*/ }
-	/* line 36, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.menu ul li a {
-		/*
-		you can use hover styles here even though this size
-		has the possibility of being a mobile device.
-		*/ }
-	/* end .menu */
-	/*********************
-	POSTS & CONTENT STYLES
-	*********************/
-	/* line 79, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.lead {
-		font-size: 60px; }
-	/* entry content */
-	/* line 83, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.entry-content {
-		/* at this larger size, we can start to align images */ }
-	/* line 87, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.entry-content .alignleft, .entry-content img.alignleft {
-		margin-right: 1.5em;
-		display: inline;
-		float: left; }
-	/* line 92, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.entry-content .alignright, .entry-content img.alignright {
-		margin-left: 1.5em;
-		display: inline;
-		float: right; }
-	/* line 97, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
-	.entry-content .aligncenter, .entry-content img.aligncenter {
-		margin-right: auto;
-		margin-left: auto;
-		display: block;
-		clear: both; }
-	/* end .entry-content */
-	/*********************
-	FOOTER STYLES
-	*********************/
-	/*
-	check your menus here. do they look good?
-	do they need tweaking?
-	*/
-	/* end .footer-links */ }
+    ******************************************************************/
+    /*
+    IMPORTANT NOTE ABOUT SASS 3.3 & UP
+    You can't use @extend within media queries
+    anymore, so just be aware that if you drop
+    them in here, they won't work.
+    */
+    /*********************
+    NAVIGATION STYLES
+    *********************/
+    /* .menu is clearfixed inside mixins.scss */
+    /* line 33, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .menu {
+        /* end .menu ul */ }
+    /* line 34, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .menu ul {
+        /* end .menu ul li */
+        /* highlight current page */
+        /* end current highlighters */ }
+    /* line 35, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .menu ul li {
+        /*
+        plan your menus and drop-downs wisely.
+        */ }
+    /* line 36, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .menu ul li a {
+        /*
+        you can use hover styles here even though this size
+        has the possibility of being a mobile device.
+        */ }
+    /* end .menu */
+    /*********************
+    POSTS & CONTENT STYLES
+    *********************/
+    /* line 79, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .lead {
+        font-size: 60px; }
+    /* entry content */
+    /* line 83, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .entry-content {
+        /* at this larger size, we can start to align images */ }
+    /* line 87, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .entry-content .alignleft, .entry-content img.alignleft {
+        margin-right: 1.5em;
+        display: inline;
+        float: left; }
+    /* line 92, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .entry-content .alignright, .entry-content img.alignright {
+        margin-left: 1.5em;
+        display: inline;
+        float: right; }
+    /* line 97, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_481up.scss */
+    .entry-content .aligncenter, .entry-content img.aligncenter {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        clear: both; }
+    /* end .entry-content */
+    /*********************
+    FOOTER STYLES
+    *********************/
+    /*
+    check your menus here. do they look good?
+    do they need tweaking?
+    */
+    /* end .footer-links */ }
 
 /*********************
 TABLET & SMALLER LAPTOPS
@@ -2176,240 +2182,240 @@ in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) {
-	/******************************************************************
-	Site Name:
-	Author:
+    /******************************************************************
+    Site Name:
+    Author:
 
-	Stylesheet: Tablet & Small Desktop Stylesheet
+    Stylesheet: Tablet & Small Desktop Stylesheet
 
-	Here's where you can start getting into the good stuff.
-	This size will work on iPads, other tablets, and desktops.
-	So you can start working with more styles, background images,
-	and other resources. You'll also notice the grid starts to
-	come into play. Have fun!
+    Here's where you can start getting into the good stuff.
+    This size will work on iPads, other tablets, and desktops.
+    So you can start working with more styles, background images,
+    and other resources. You'll also notice the grid starts to
+    come into play. Have fun!
 
-	******************************************************************/
-	/*********************
-	GENERAL STYLES
-	*********************/
-	/*********************
-	LAYOUT & GRID STYLES
-	*********************/
-	/*********************
-	HEADER STYLES
-	*********************/
-	/* line 34, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.header {
-		position: fixed;
-		width: 100%;
-		box-shadow: 0 0 4em #9b9b9b; }
-	/* line 40, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	#logo {
-		float: left;
-		margin: 1em 0 0 0; }
-	/*********************
-	NAVIGATION STYLES
-	*********************/
-	#mobile-button { display: none;}
-	/* line 49, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav {
-		border: 0;
-		float: right;
-		/* end .menu ul li */
-		/* highlight current page */
-		/* end current highlighters */ }
-	/* line 52, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    ******************************************************************/
+    /*********************
+    GENERAL STYLES
+    *********************/
+    /*********************
+    LAYOUT & GRID STYLES
+    *********************/
+    /*********************
+    HEADER STYLES
+    *********************/
+    /* line 34, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .header {
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 0 4em #9b9b9b; }
+    /* line 40, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    #logo {
+        float: left;
+        margin: 1em 0 0 0; }
+    /*********************
+    NAVIGATION STYLES
+    *********************/
+    #mobile-button { display: none;}
+    /* line 49, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav {
+        border: 0;
+        float: right;
+        /* end .menu ul li */
+        /* highlight current page */
+        /* end current highlighters */ }
+    /* line 52, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
 
-#menu-main {
-		background: transparent;
-border-top: 0px solid;
-margin-top: 0px;
-display: block;
-position: static;
-left: auto;
-width: auto;
-border-bottom: 0px; }
-	/* line 56, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li {
-		float: left;
-		position: relative;
-		/*
-		plan your menus and drop-downs wisely.
-		*/
-		/* showing sub-menus */ }
-	/* line 60, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li a {
-		border-bottom: 0;
-		font-size: 40px;
-		padding: 0.15em 0.75em 6px;
-		/*
-		you can use hover styles here even though this size
-		has the possibility of being a mobile device.
-		*/ }
-	/* line 69, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li a:hover, .nav li a:focus {
-		color: #fff;
-		text-decoration: underline; }
-	/* line 82, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li ul.sub-menu,
-	.nav li ul.children {
-		background: #f2a900;
-    margin-top: 0;
-		border-top: 0;
-    border-left: 4px solid #e29e00;
-    border-right: 4px solid #e29e00;
-    border-bottom: 4px solid #e29e00;
-		position: absolute;
-		visibility: hidden;
-		z-index: 8999;
-		/* highlight sub-menu current page */ }
-	/* line 90, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li ul.sub-menu li,
-	.nav li ul.children li {
-		/*
-		if you need to go deeper, go nuts
-		just remember deeper menus suck
-		for usability. k, bai.
-		*/ }
-	/* line 92, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li ul.sub-menu li a,
-	.nav li ul.children li a {
-		padding-left: 10px;
-		border-right: 0;
-		display: block;
-		width: 180px;
-		border-bottom: 1px solid #ccc; }
-	/* line 109, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li ul.sub-menu li:last-child a,
-	.nav li ul.children li:last-child a {
-		border-bottom: 0; }
-	/* line 119, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li ul.sub-menu li ul,
-	.nav li ul.children li ul {
-		top: 0;
-		left: 100%; }
-	/* line 134, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.nav li:hover > ul {
-		top: auto;
-		visibility: visible; }
-	/* end .nav */
-	/********************
-	CONTENT STYLES
-	********************/
-	/* line 153, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.lead {
-		font-size: 100px; }
-	/* line 157, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.badge {
-		width: 23em;
-		height: 15em;
-		margin: -6em auto 6em;
-		padding: 3em;
-		background: url(http://www.kaarlitalu.ee/wp-content/uploads/2015/10/badge_framed.png) center center no-repeat; }
-	/* line 165, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.badge-text {
-		font-size: 70px;
-		margin: 0.3em 0px 0px; }
-	/* line 170, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.entry-content {
-		padding: 10em 0em 3em; }
-	/* line 174, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.content-logo {
-		text-align: center; }
-	/* line 180, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.content-text {
-		width: 400px;
-		margin: 30px auto;
-		padding: 1em;
-		text-indent: 0; }
-	/**********************
-	MOUSE SCROLL DOWN ICON
-	**********************/
-	/*********************
-	SIDEBARS & ASIDES
-	*********************/
-	/* line 195, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.sidebar {
-		margin-top: 2.2em; }
-	/* line 199, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.widgettitle {
-		border-bottom: 2px solid #444;
-		margin-bottom: 0.75em; }
-	/* line 204, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.widget {
-		padding: 0 10px;
-		margin: 2.2em 0; }
-	/* line 209, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.widget ul li {
-		margin-bottom: 0.75em;
-		/* deep nesting */ }
-	/* line 217, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.widget ul li ul {
-		margin-top: 0.75em;
-		padding-left: 1em; }
-	/* links widget */
-	/* meta widget */
-	/* pages widget */
-	/* recent-posts widget */
-	/* archives widget */
-	/* tag-cloud widget */
-	/* calendar widget */
-	/* category widget */
-	/* recent-comments widget */
-	/* search widget */
-	/* text widget */
-	/*********************
-	FOOTER STYLES
-	*********************/
-	/*
-	you'll probably need to do quite a bit
-	of overriding here if you styled them for
-	mobile. Make sure to double check these!
-	*/
-	/* line 323, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.footer {
-		border-top: 10px solid #C8AE78;
-		height: 76px;
-		margin: 0;
-		padding: 10px 0 0;
-		background-color: #ceb888;
-		text-align: center;
-		font-family: "Lato";
-		font-size: 16px;
-		color: #323944; }
-	/* line 334, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	#inner-footer {
-		padding: 0; }
-	/* line 337, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.footer-text {
-		font-family: "Lato";
-		color: #272626;
-		margin: 20px 0 0; }
-	/* line 343, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.footer-text p {
-		margin: 0; }
-	/* line 347, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.footer-right-col {
-		float: right; }
-	/* line 350, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.footer-right-col p {
-		margin: 0; }
-	/* line 354, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.footer-left-col {
-		float: left; }
-	/* line 357, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.footer-left-col p {
-		margin: 0; }
-	.footer-left-col a img {
-		height: 50px; }
-	/* line 363, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
-	.footer-links ul li {
-		/*
-		be careful with the depth of your menus.
-		it's very rare to have multi-depth menus in
-		the footer.
-		*/ }
-	/* end .footer-links */ }
+    #menu-main {
+        background: transparent;
+        border-top: 0px solid;
+        margin-top: 0px;
+        display: block;
+        position: static;
+        left: auto;
+        width: auto;
+        border-bottom: 0px; }
+    /* line 56, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li {
+        float: left;
+        position: relative;
+        /*
+        plan your menus and drop-downs wisely.
+        */
+        /* showing sub-menus */ }
+    /* line 60, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li a {
+        border-bottom: 0;
+        font-size: 40px;
+        padding: 0.15em 0.75em 6px;
+        /*
+        you can use hover styles here even though this size
+        has the possibility of being a mobile device.
+        */ }
+    /* line 69, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li a:hover, .nav li a:focus {
+        color: #fff;
+        text-decoration: underline; }
+    /* line 82, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li ul.sub-menu,
+    .nav li ul.children {
+        background: #f2a900;
+        margin-top: 0;
+        border-top: 0;
+        border-left: 4px solid #e29e00;
+        border-right: 4px solid #e29e00;
+        border-bottom: 4px solid #e29e00;
+        position: absolute;
+        visibility: hidden;
+        z-index: 8999;
+        /* highlight sub-menu current page */ }
+    /* line 90, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li ul.sub-menu li,
+    .nav li ul.children li {
+        /*
+        if you need to go deeper, go nuts
+        just remember deeper menus suck
+        for usability. k, bai.
+        */ }
+    /* line 92, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li ul.sub-menu li a,
+    .nav li ul.children li a {
+        padding-left: 10px;
+        border-right: 0;
+        display: block;
+        width: 180px;
+        border-bottom: 1px solid #ccc; }
+    /* line 109, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li ul.sub-menu li:last-child a,
+    .nav li ul.children li:last-child a {
+        border-bottom: 0; }
+    /* line 119, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li ul.sub-menu li ul,
+    .nav li ul.children li ul {
+        top: 0;
+        left: 100%; }
+    /* line 134, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .nav li:hover > ul {
+        top: auto;
+        visibility: visible; }
+    /* end .nav */
+    /********************
+    CONTENT STYLES
+    ********************/
+    /* line 153, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .lead {
+        font-size: 100px; }
+    /* line 157, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .badge {
+        width: 23em;
+        height: 15em;
+        margin: -6em auto 6em;
+        padding: 3em;
+        background: url(http://www.kaarlitalu.ee/wp-content/uploads/2015/10/badge_framed.png) center center no-repeat; }
+    /* line 165, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .badge-text {
+        font-size: 70px;
+        margin: 0.3em 0px 0px; }
+    /* line 170, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .entry-content {
+        padding: 10em 0em 3em; }
+    /* line 174, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .content-logo {
+        text-align: center; }
+    /* line 180, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .content-text {
+        width: 400px;
+        margin: 30px auto;
+        padding: 1em;
+        text-indent: 0; }
+    /**********************
+    MOUSE SCROLL DOWN ICON
+    **********************/
+    /*********************
+    SIDEBARS & ASIDES
+    *********************/
+    /* line 195, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .sidebar {
+        margin-top: 2.2em; }
+    /* line 199, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .widgettitle {
+        border-bottom: 2px solid #444;
+        margin-bottom: 0.75em; }
+    /* line 204, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .widget {
+        padding: 0 10px;
+        margin: 2.2em 0; }
+    /* line 209, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .widget ul li {
+        margin-bottom: 0.75em;
+        /* deep nesting */ }
+    /* line 217, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .widget ul li ul {
+        margin-top: 0.75em;
+        padding-left: 1em; }
+    /* links widget */
+    /* meta widget */
+    /* pages widget */
+    /* recent-posts widget */
+    /* archives widget */
+    /* tag-cloud widget */
+    /* calendar widget */
+    /* category widget */
+    /* recent-comments widget */
+    /* search widget */
+    /* text widget */
+    /*********************
+    FOOTER STYLES
+    *********************/
+    /*
+    you'll probably need to do quite a bit
+    of overriding here if you styled them for
+    mobile. Make sure to double check these!
+    */
+    /* line 323, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .footer {
+        border-top: 10px solid #C8AE78;
+        height: 76px;
+        margin: 0;
+        padding: 10px 0 0;
+        background-color: #ceb888;
+        text-align: center;
+        font-family: "Lato";
+        font-size: 16px;
+        color: #323944; }
+    /* line 334, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    #inner-footer {
+        padding: 0; }
+    /* line 337, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .footer-text {
+        font-family: "Lato";
+        color: #272626;
+        margin: 20px 0 0; }
+    /* line 343, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .footer-text p {
+        margin: 0; }
+    /* line 347, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .footer-right-col {
+        float: right; }
+    /* line 350, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .footer-right-col p {
+        margin: 0; }
+    /* line 354, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .footer-left-col {
+        float: left; }
+    /* line 357, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .footer-left-col p {
+        margin: 0; }
+    .footer-left-col a img {
+        height: 50px; }
+    /* line 363, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_768up.scss */
+    .footer-links ul li {
+        /*
+        be careful with the depth of your menus.
+        it's very rare to have multi-depth menus in
+        the footer.
+        */ }
+    /* end .footer-links */ }
 
 /*********************
 DESKTOP
@@ -2418,23 +2424,23 @@ in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 1030px) {
-	/******************************************************************
-	Site Name:
-	Author:
+    /******************************************************************
+    Site Name:
+    Author:
 
-	Stylesheet: Desktop Stylsheet
+    Stylesheet: Desktop Stylsheet
 
-	This is the desktop size. It's larger than an iPad so it will only
-	be seen on the Desktop.
+    This is the desktop size. It's larger than an iPad so it will only
+    be seen on the Desktop.
 
-	******************************************************************/
-	/* line 16, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_1030up.scss */
-	.nav {
-		border-bottom: 0;
-		margin: 0; }
-	/* line 28, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_1030up.scss */
-	.lead {
-		font-size: 146px; } }
+    ******************************************************************/
+    /* line 16, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_1030up.scss */
+    .nav {
+        border-bottom: 0;
+        margin: 0; }
+    /* line 28, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/breakpoints/_1030up.scss */
+    .lead {
+        font-size: 146px; } }
 
 /*********************
 LARGE VIEWING SIZE
@@ -2453,68 +2459,68 @@ sense to print at the bottom. Things like nav, ads, and forms should
 be set to display none.
 *********************/
 @media print {
-	/******************************************************************
-	Site Name:
-	Author:
+    /******************************************************************
+    Site Name:
+    Author:
 
-	Stylesheet: Print Stylesheet
+    Stylesheet: Print Stylesheet
 
-	This is the print stylesheet. There's probably not a lot
-	of reasons to edit this stylesheet. If you want to
-	though, go for it.
+    This is the print stylesheet. There's probably not a lot
+    of reasons to edit this stylesheet. If you want to
+    though, go for it.
 
-	******************************************************************/
-	/* line 13, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	* {
-		background: transparent !important;
-		color: black !important;
-		text-shadow: none !important;
-		filter: none !important;
-		-ms-filter: none !important; }
-	/* line 21, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	a, a:visited {
-		color: #444 !important;
-		text-decoration: underline; }
-	/* line 26, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	a:after, a:visited:after {
-		content: " (" attr(href) ")"; }
-	/* line 31, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	a abbr[title]:after, a:visited abbr[title]:after {
-		content: " (" attr(title) ")"; }
-	/* line 38, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	.ir a:after,
-	a[href^="javascript:"]:after,
-	a[href^="#"]:after {
-		content: ""; }
-	/* line 42, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	pre, blockquote {
-		border: 1px solid #999;
-		page-break-inside: avoid; }
-	/* line 47, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	thead {
-		display: table-header-group; }
-	/* line 51, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	tr, img {
-		page-break-inside: avoid; }
-	/* line 55, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	img {
-		max-width: 100% !important; }
-	@page {
-		margin: 0.5cm; }
-	/* line 63, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	p, h2, h3 {
-		orphans: 3;
-		widows: 3; }
-	/* line 69, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	h2,
-	h3 {
-		page-break-after: avoid; }
-	/* line 78, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
-	.sidebar,
-	.page-navigation,
-	.wp-prev-next,
-	.respond-form,
-	nav {
-		display: none; } }
+    ******************************************************************/
+    /* line 13, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    * {
+        background: transparent !important;
+        color: black !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important; }
+    /* line 21, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    a, a:visited {
+        color: #444 !important;
+        text-decoration: underline; }
+    /* line 26, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    a:after, a:visited:after {
+        content: " (" attr(href) ")"; }
+    /* line 31, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    a abbr[title]:after, a:visited abbr[title]:after {
+        content: " (" attr(title) ")"; }
+    /* line 38, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: ""; }
+    /* line 42, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid; }
+    /* line 47, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    thead {
+        display: table-header-group; }
+    /* line 51, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    tr, img {
+        page-break-inside: avoid; }
+    /* line 55, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    img {
+        max-width: 100% !important; }
+    @page {
+        margin: 0.5cm; }
+    /* line 63, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3; }
+    /* line 69, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    h2,
+    h3 {
+        page-break-after: avoid; }
+    /* line 78, http://www.kaarlitalu.ee/wp-content/themes/eddiemachado-bones-9db85e4/library/scss/partials/_print.scss */
+    .sidebar,
+    .page-navigation,
+    .wp-prev-next,
+    .respond-form,
+    nav {
+        display: none; } }
 
 /*# sourceMappingURL=style.css.map */
